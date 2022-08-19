@@ -1,0 +1,33 @@
+Primeiro eu costumo criar o esqueleto da aplicação 
+
+crio as camadas e configuro o banco
+
+depois crio um crud basico funcional
+
+apos feito o basico vou para as funcionalidades
+
+apos criar o crud basico pesquisei como realizar a paginacao e implementei alguns filtros
+
+na funcionalidade de calcular a idade acredito que a melhot forma seria que o proprio banco setasse o valor da idade a cada consulta mas como nao sabia
+como fazer, criei um metodo no java pra que toda vez que realizasse um get a aplicacao preencheria o valor.
+
+
+swagger
+http://localhost:8080/swagger-ui/index.html#/
+
+
+/api/tutorials?page=1&size=5
+http://localhost:8080/api/v1/clients?page=1&size=5
+
+
+teste de integracao - ok
+Criei um simples teste de integracao testando a funcionalidade de criar cliente.
+
+dockerizar a aplicacao
+tentei dockerizar porem tive problemas ao dockerizar o banco
+
+docker build -t client_register-0.0.1 ./
+
+tambem tive problemas ao tentar subir a aplicacao usando heroku
+
+
